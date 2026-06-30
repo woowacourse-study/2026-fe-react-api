@@ -2,8 +2,8 @@
 
 | Day | API | 정리 |
 | :-: | :-- | :-- |
-| 1 | `useImperativeHandle` | [정리](./useImperativeHandle.md) |
-| 2 | `useInsertionEffect` | [정리](./useInsertionEffect.md) |
+| 1 | `useImperativeHandle` | [정리](./day1-useImperativeHandle.md) |
+| 2 | `useInsertionEffect` | [정리](./day2-useInsertionEffect.md) |
 | 3 | `useEffectEvent` | [정리](./useEffectEvent.md) |
 | 4 | `useTransition` | [정리](./useTransition.md) |
 | 5 | `useDeferredValue` | [정리](./useDeferredValue.md) |
