@@ -2,7 +2,7 @@
 | :-: | :-------------------------------------- | :------------------------------------------------------------------------------------- |
 |  1  | `useState`, `useReducer`                | [useState](./useState.md), [useReducer](./useReducer.md)                               |
 |  2  | `useRef`, `useImperativeHandle`         | [useRef](./useRef.md), [useImperativeHandle](./useImperativeHandle.md)                 |
-|  3  | `useEffect`                             | [useEffect](./useEffect.md)                                                            |
+|  3  | `useEffect`, `useEffectEvent`           | [useEffect](./useEffect.md), [useEffectEvent](./useEffectEvent.md)                     |
 |  4  | `useLayoutEffect`, `useInsertionEffect` | [useLayoutEffect](./useLayoutEffect.md), [useInsertionEffect](./useInsertionEffect.md) |
 |  5  | `useContext`, `useSyncExternalStore`    | [useContext](./useContext.md), [useSyncExternalStore](./useSyncExternalStore.md)       |
 |  6  | `useMemo`, `useCallback`                | [useMemo](./useMemo.md), [useCallback](./useCallback.md)                               |
@@ -27,11 +27,35 @@
 ```
 템플릿
 
-1. 왜 등장했을까?
-2. 어떤 훅일까?
-3. 어떤 상황에서 사용할까?
-4. 사용할 때 주의할 점
-5. 비슷한 훅과 비교
+# 제목
 
-한 줄 요약
+<br />
+
+## 1. 왜 등장했을까?
+
+<br />
+
+## 2. 어떤 훅일까?
+
+
+### 매개변수
+
+-
+
+### 반환값
+
+-
+
+<br />
+
+## 3. 어떤 상황에서 사용할까?
+
+<br />
+
+## 4. 사용할 때 주의할 점
+
+<br />
+
+## 한 줄 요약
+
 ```
