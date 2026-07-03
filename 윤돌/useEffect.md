@@ -112,6 +112,24 @@ useEffect(() => {
 
 <br />
 
+### 5. 비슷한 훅 비교
+
+`useInsertionEffect`는 브라우저가 레이아웃을 계산하기 전에 CSS를 삽입하고,
+`useLayoutEffect`는 화면이 그려지기 전에 DOM을 측정하거나 수정할 수 있다.
+
+실행 흐름은 다음과 같다.
+
+```text
+React Render
+  → DOM Commit
+  → useInsertionEffect (CSS 삽입)
+  → useLayoutEffect (DOM 측정 및 수정)
+  → Browser Layout & Paint
+  → useEffect (외부 시스템과 동기화)
+```
+
+<br />
+
 ## 한 줄 요약
 
 > **useEffect는 React 컴포넌트를 외부 시스템과 동기화하기 위한 Hook이다.**
